@@ -1,0 +1,141 @@
+ERROR - 2022-06-16 08:30:43 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-06-16 08:36:06 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL/TLS already set-up for this stream
+CRITICAL - 2022-06-16 22:11:20 --> Invalid file: form_view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_view', [], true)
+ 3 APPPATH\Controllers\SendMail.php(10): view('form_view')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 22:11:23 --> Invalid file: form_view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_view', [], true)
+ 3 APPPATH\Controllers\SendMail.php(10): view('form_view')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 22:39:54 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 22:40:41 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 22:42:13 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 22:42:14 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 22:42:30 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 22:42:31 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 23:34:33 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 23:45:23 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 23:45:24 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 70.
+ 1 APPPATH\Views\contact.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 23:50:58 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 71.
+ 1 APPPATH\Views\contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 23:50:59 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\contact.php on line 71.
+ 1 APPPATH\Views\contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\contact.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\SendMail.php(10): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SendMail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendMail))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
